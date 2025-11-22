@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Custom RadioButton style -->
+    <style name="CustomRadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+
+    <!-- Base Theme -->
+    <style name="Base.Theme.ToDo" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#6D1D24</item>
+        <item name="colorPrimaryVariant">#4B1216</item>
+        <item name="colorAccent">#6D1D24</item>
+        <item name="radioButtonStyle">@style/CustomRadioButton</item>
+    </style>
+
+    <!-- Τελικό Theme -->
+    <style name="Theme.ToDo" parent="Base.Theme.ToDo" />
+
+</resources>

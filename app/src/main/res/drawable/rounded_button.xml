@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Κατάσταση πατημένου -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#852730" /> <!-- πιο σκούρο πράσινο -->
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+
+    <!-- Κανονική κατάσταση -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#6D1D24" /> <!-- πράσινο -->
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+
+</selector>
